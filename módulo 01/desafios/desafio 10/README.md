@@ -7,7 +7,7 @@
 
 <h3>Educa Saviani página 02:</h3> 
 
-![segunda pagina site](https://user-images.githubusercontent.com/102833737/171043279-01731674-f5f0-4ef0-9afd-8e3a038a46ca.png)
+![segunda pagina site](https://user-images.githubusercontent.com/102833737/171067820-c4c56420-794a-4d29-a1af-1345ce5388f5.png)
 
 #Paleta de cores site Educa Saviani página: 
 
