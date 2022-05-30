@@ -1,10 +1,10 @@
-#Desafio 10 paginas do site. 
+<h1>Desafio 10 paginas do site.</h1> 
 
 
-#Educa Saviani página 01: 
+<h2>Educa Saviani página 01:</h2> 
 ![primeira pagina site](https://user-images.githubusercontent.com/102833737/171043240-ae9622c0-e0ad-4a70-982e-e320a4728b9f.png)
 
-#Educa Saviani página 02: 
+<h3>Educa Saviani página 02:</h3> 
 ![segunda pagina site](https://user-images.githubusercontent.com/102833737/171043279-01731674-f5f0-4ef0-9afd-8e3a038a46ca.png)
 
 #Paleta de cores site Educa Saviani página: 
