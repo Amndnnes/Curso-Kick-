@@ -1,7 +1,9 @@
-<h1>Desafio parada15 site - Clothing Jeans.</h1> 
+# Loja Virtual "Quitanda Online" com Bootstrap 5
 
-<h2>Site com tema livre utilizando div e bootstrap. O site contém 5 páginas: Home, Login, Calças, Saias e Shorts. </h2> 
+Esse é o código-fonte do design da loja virtual "Quitanda Online" cujo vídeo mostrando o passo-a-passo de construção está disponível no YouTube, no link https://youtu.be/0fUB_f_XKsM . 
 
-<h3>Home:</h3> 
+Se você tiver alguma contribuição a fazer, sinta-se a vontade para sugerir. Se for pertinente, implementarei e darei os créditos a você.
 
-![Screenshot_1](https://user-images.githubusercontent.com/102833737/173425249-0562fc98-eaee-4101-aaa0-4065e88652c7.png)
+Espero que esse projeto seja realmente útil pra você.
+
+Um grande abraço!
