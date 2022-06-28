@@ -1,0 +1,310 @@
+body{
+    background-color: rgb(209, 209, 209);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 0px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font: 17px Helvetica;
+}
+
+.container a:hover{ /* botão entrar*/
+    background-color: #BF1212;
+    color: white !important;
+    transition: 0.4s;
+    padding: 5px;
+}
+
+#header{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    width: 92%;
+ 
+}
+
+#header img{
+    position: relative;
+    width: 250px;
+    height: 85px;
+}
+
+#item2{
+    display: flex;
+    position: relative;
+    font-family: Helvetica;
+    width: 100%;
+    justify-content: right;
+
+}
+
+#item2 li a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 10px;
+    line-height: 37px;
+}
+
+#item2 button{ /* botão entrar*/
+    height: 35px;
+    /*margin-right: 75px;*/
+    cursor: pointer;
+    font: 17px Helvetica;
+    background-color: #BF1212;
+    border: none;
+    color: white;
+    border-style: double;
+    border-color: white;
+    transition: 0.4s;
+}
+
+#header ul{
+    position: relative;
+    height: 56px;
+    display: inline-flex;
+    vertical-align: middle;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    transform: none;
+    overflow: hidden;
+    line-height: normal;
+    list-style-type: none;
+}
+
+#header li{
+    line-height: 1.17;
+    padding: 16px;
+    border-top: 0;
+}
+
+
+.container-menu2{
+    text-align: center;
+    margin: 20px;
+}
+
+.container-menu2 a{
+    color: #BF1212;
+    font-weight: bold;
+    min-width: 139px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.article-box1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.article-box2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.article-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.article-item button{
+    background-color: #BF1212;
+    border: none;
+    color: white;
+    border-style: double;
+    border-color: white;
+    height: 35px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.article-item img{
+    box-shadow: 10px 5px 5px black ;
+}
+
+footer{ /*elemento pai*/
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 100px;
+    justify-content: space-around;
+
+}
+
+.footer-box-1 li{ /*elemento filho*/
+    list-style-type: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.footer-box-2 li{ /*elemento filho*/
+    list-style-type: none;
+    color: black;  
+    align-items: center; 
+    text-align: center;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.footer-box-2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-box-3 li{ /*elemento filho*/
+    list-style-type: none;
+    color: black;  
+    align-items: center; 
+    text-align: center;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.jogoshome{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+@media screen and (max-width:400px){ /*mobile*/
+    
+    .article-img img{
+        width: 100%;
+    }
+    
+    .jogoshome{
+        grid-template-columns: 1fr;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #item2 ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #header{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    #header ul{
+        height: auto;
+    }
+
+    #header li{
+        padding: 5px 15px;
+    }
+
+    .container{
+        margin: 0px;
+        height: 170px;
+    }
+}
+
+.article-img img{
+    max-width: 100%;
+}
+
+
+@media screen and (min-width:1440px){ /*desktop e tablet*/
+    .menu-sm{
+        display: none;
+    }
+}
+
+
+
