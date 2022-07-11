@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <script>
+        const jogador = prompt("Qual seu nome jogador?")
+        let resposta
+        let cont = 0
+        let op = 10
+        let pontuacao = 0;
+
+        while (op != 0) {
+            op = parseInt(prompt("Qual tema você deseja jogar? \n 1- Game \n 2- Cinema \n 3- Programação \n 0- Sair"))
+
+            switch (op) {
+                case 1:
+                    game()
+                    break;
+
+                case 2:
+                    cinema()
+                    break;
+
+                case 3:
+                    programacao()
+                    break;
+                
+                case 0:
+                    alert("Você desejou sair do jogo :(")
+                    break;
+
+                default:
+                    alert("Digite uma opçao válida!")
+                    break;
+            }
+        }
+
+        function game(){
+            
+            resposta = prompt("Mario World foi lançado em 1998... verdadeiro ou falso?")
+            if(resposta == "falso"){
+                pontuacao++
+            }else{
+                alert("Resposta incorreta, é falso! Mario World foi criando em 1990.")
+            }
+            resposta = prompt("NetherRealm Studios é o atual desenvolvedor de Morta Kombat...verdadeiro ou falso?")
+            if(resposta == "verdadeiro"){
+                pontuacao++
+            }else{
+                alert("Resposta incorreta, é verdadeiro! Desde 2010 NetherRealm Studios é o atual desenvolvedor.")
+            }
+            resposta = prompt("A franquia Assassin's Creed conta com 12 jogos...verdadeiro ou falso?")
+            if(resposta == "verdadeiro"){
+                pontuacao++ 
+            }else{
+                alert("Resposta incorreta, é verdadeiro! Assassin's Creed tem apenas 12 jogos na linha principal.")
+            }
+                alert(`${jogador}, você teve o total de ${pontuacao} pontos em todo o quiz`)
+        }        
+        function cinema(){
+            
+            resposta = prompt("A saga do Harry Potter conta com 12 filmes...verdadeiro ou falso?")
+            if(resposta == "falso"){
+                pontuacao++
+            }else{
+                alert("Resposta incorreta, é falso! A saga conta com apenas 8 filmes.")
+            }
+            resposta = prompt("Tarantino é o diretor do filme E.T. O Extraterrestre...verdadeiro ou falso?")
+            if(resposta == "falso"){
+                pontuacao++
+            }else{
+                alert("Resposta incorreta, é falso! O diretor do filme é Steven Spielberg.")
+            }
+            resposta = prompt("Os garotos perdidos foram lançados em 1987...verdadeiro ou falso?")
+            if(resposta == "verdadeiro"){
+                pontuacao++ 
+            }else{
+                alert("Resposta incorreta, é verdadeiro! O filme foi lançado no ano de 1987.")
+            }
+                alert(`${jogador}, você teve o total de ${pontuacao} pontos em todo o quiz`)
+        }        
+        
+        function programacao(){
+            
+        resposta = prompt("O HTML5 foi lançado em 2014...verdadeiro ou falso?")
+        if(resposta == "verdadeiro"){
+            pontuacao++
+        }else{
+            alert("Resposta incorreta, é verdadeiro! O HTML5 foi lançado em 2014.")
+        }
+        resposta = prompt("O JavaScript cria aplicações executadas em uma máquina virtual ou em um browser...verdadeiro ou falso")
+        if(resposta == "falso"){
+            pontuacao++
+        }else{
+            alert("Resposta incorreta, é falso! Quem cria essas aplicações é a linguagem Java.")
+        }
+        resposta = prompt("Ada Lovelace foi a primeira pessoa a programar...verdadeiro ou falso?")
+        if(resposta == "verdadeiro"){
+            pontuacao++
+        }else{
+            alert("Resposta incorreta, é verdadeiro! Ada Lovelace foi a primeira pessoa programadora de computadores.")
+        }
+            alert(`${jogador}, você teve o total de ${pontuacao} pontos em todo o quiz`)
+        }        
+    </script>
+</body>
+</html>
